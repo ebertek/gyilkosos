@@ -18,5 +18,6 @@
   while ($row = $sth->fetch()) {
     echo $row['uid'] . "\n";
   }
+  $sth = null;
   $dbh = null;
 ?>
